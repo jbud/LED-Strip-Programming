@@ -6,16 +6,16 @@
 #define DATA_PIN 9           // Pin which the data cable is connected.
 #define MAX_BRIGHTNESS 255   // Max Brightness (Default 255)
 #define LED_CHIPSET TM1803   // LED Chipset.
-#define COLOR_ORDER GBR;     // Color order (RGB, RBG, BGR, BRG, GRB, GBR) See FastLED examples (RGB Calibration) for finding correct order.
+#define COLOR_ORDER GBR     // Color order (RGB, RBG, BGR, BRG, GRB, GBR) See FastLED examples (RGB Calibration) for finding correct order.
 
 //DEMO_MODE mode includes many flashing features and random colors, turning this off loops a gentle rainbow effect for at home use.
-#define DEMO_MODE true;
+#define DEMO_MODE true
 
 //Not currently functional. (Future feature will react to currently playing music, may require additional hardware).
-#define MUSIC_MODE false;
+#define MUSIC_MODE false
 
 // This is only used for debugging functions and testing other stuff.
-#define DEBUG_MODE false;
+#define DEBUG_MODE false
 
 //Global Variables.
 CRGB leds[NUM_LEDS];
